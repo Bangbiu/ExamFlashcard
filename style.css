@@ -1,0 +1,145 @@
+div {
+    width: 100%;
+    padding: 20px 20px 20px 20px;
+}
+ul.nav {
+    padding-left: 0px;
+    background-color: #5D8BF4;
+    text-align: center;
+}
+ul.nav > li {
+    display: inline-block;
+    padding: 10px 20px;
+}
+ul.nav > li:hover {
+    background-color: #537cdb;
+}
+ul.nav > li > a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+ol.about {
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    height: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.subjectOpt {
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    height: 100%;
+    
+
+    align-items: center;
+    justify-content: center;
+}
+h1 {
+    margin: 1em 0 0.5em 0;
+	color: #343434;
+	font-weight: normal;
+	font-family: 'Ultra', sans-serif;   
+	font-size: 36px;
+	line-height: 42px;
+	text-transform: uppercase;
+	/*text-shadow: 0 2px white, 0 3px #777;*/
+    text-align: center;
+
+    font-size: 36px;
+    line-height: 40px;
+}
+img.icon {
+    margin-right: 20px;
+    width: 40px;
+    height: 40px;
+}
+.statPanel {
+    display: inline-block;
+    width: 20%;
+    height: 500px;
+    padding-top: 20px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    background-color: #fff;
+    border-radius: 2px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.18), 0 1px 5px 0 rgba(0,0,0,0.15);
+}
+
+.flashCard {
+    display: inline-block;
+    margin-left: 20px;
+    padding-top: 50px;
+    padding-right: 80px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+    
+    width: 50%;
+    height: 600px;
+    background-color: #fff;
+    border-radius: 2px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.18), 0 1px 5px 0 rgba(0,0,0,0.15);
+}
+
+.button-flat {
+    margin: 0;
+    border-width: 0;
+    margin-top: 20px;
+    width: 100%;
+    height: 100px;
+    border-color: transparent;
+    background: transparent;
+    font-weight: 400;
+    cursor: pointer;
+    position: relative;
+    font-size: 30px;
+    font-family: inherit;
+    padding: 5px 12px;
+    overflow: hidden;
+    border-width: 0;
+    border-radius: 2px;
+    background: #fff;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.18), 0 1px 5px 0 rgba(0,0,0,0.15);
+    color: #1d89ff;
+    text-transform: uppercase;
+    -webkit-transition: all 0.25s cubic-bezier(0.02, 0.01, 0.47, 1);
+    transition: all 0.25s cubic-bezier(0.02, 0.01, 0.47, 1);
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+    
+}
+.button-flat:hover,
+.button-flat:focus {
+    box-shadow: 0 5px 11px 0 rgba(0,0,0,0.18), 0 4px 15px 0 rgba(0,0,0,0.15);
+    -webkit-transition: box-shadow 0.4s ease-out;
+    transition: box-shadow 0.4s ease-out;
+}
+.button-flat.bttn-default {
+    background: #fff;
+    color: #1d89ff;
+}
+.button-flat.bttn-primary {
+    background: #1d89ff;
+    color: #fff;
+}
+.button-flat.bttn-warning {
+    background: #feab3a;
+    color: #fff;
+}
+.button-flat.bttn-danger {
+    background: #ff5964;
+    color: #fff;
+}
+.button-flat.bttn-success {
+    background: #28b78d;
+    color: #fff;
+}
+.button-flat.bttn-royal {
+    background: #bd2df5;
+    color: #fff;
+}
